@@ -2,7 +2,7 @@
 
 ## Live Demo
 
-[https://allo-inventory-eta-three.vercel.app](https://allo-inventory-eta-three.vercel.app)
+[https://allo-inventory-beta.vercel.app?_vercel_share=5Yl4GveiHXzVpAkUzSv7F1JZ0vJI8q1u](https://allo-inventory-beta.vercel.app?_vercel_share=5Yl4GveiHXzVpAkUzSv7F1JZ0vJI8q1u)
 
 ## GitHub Repository
 
@@ -161,8 +161,8 @@ This approach avoids the need for paid Vercel cron jobs.
 Create a `.env` file:
 
 ```env
-DATABASE_URL=your_postgresql_database_url
-REDIS_URL=your_redis_url
+DATABASE_URL="postgresql://postgres.soswuxkeptejqpwaqxux:Pk@9791878745@aws-1-ap-northeast-1.pooler.supabase.com:5432/postgres"
+REDIS_URL="rediss://default:gQAAAAAAAAhDLAAIgcDFlY2NlODY1OGE4ZjE0Yzc5OGM4ZWRhMzhlNWFhMDkwZA@enormous-cicada-135397.upstash.io:6379"
 ```
 
 ---
